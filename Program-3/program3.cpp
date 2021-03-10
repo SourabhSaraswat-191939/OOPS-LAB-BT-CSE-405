@@ -20,7 +20,7 @@ int main()
     int n;
     cout<<"\nEnter Base Value m : ";
     cin>>m;
-    cout<<"Enter The Power Value n (to use default value of n, enter 0) :";
+    cout<<"Enter The Power Value n (to use default value of n, enter 0) : ";
     cin>>n;
     if(n==0)
     {
