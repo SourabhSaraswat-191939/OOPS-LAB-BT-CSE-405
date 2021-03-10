@@ -14,6 +14,7 @@ float power(float m)
     t=pow(m,n);
     return t;
 }
+
 void display(float data)
 {
     cout<<"\nYour Answer is = "<<data<<endl<<endl;
