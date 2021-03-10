@@ -30,12 +30,11 @@ int main()
     if(n==-1)
     {
         ans=power(m);
-        display(ans); 
     }
     else
     {
-        ans=power(m,n);
-        display(ans);    
+        ans=power(m,n);  
     }
+    display(ans);  
     return 0;
 }
