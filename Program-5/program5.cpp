@@ -37,12 +37,12 @@ class ACCOUNT{
         }
 
         void getDetails(){
-            cout<<"Name Of Account Holder => "<<Acc_name<<endl;
-            cout<<"Age => "<<Age<<endl;
-            cout<<"Phone Number => "<<Phone_no<<endl;
-            cout<<"Aadhar Number => "<<Aadhar_no<<endl;
-            cout<<"Account Number => "<<Acc_no<<endl;
-            cout<<"IFSC Code => "<<IFSC<<endl;
+            display("Name Of Account Holder => "+Acc_name);
+            display("Age => "+to_string(Age));
+            display("Phone Number => "+to_string(Phone_no));
+            display("Aadhar Number => "+to_string(Aadhar_no));
+            display("Account Number => "+to_string(Acc_no));
+            display("IFSC Code => "+IFSC);
         }
         void getBalance(){
             display("Available Balance => "+to_string(Balance));
