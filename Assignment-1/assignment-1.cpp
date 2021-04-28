@@ -19,5 +19,5 @@ int main(){
     ans = factorial(num);
     display(ans);
 
-    return 0;
+    
 }
