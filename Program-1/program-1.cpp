@@ -30,5 +30,5 @@ int main()
     read_matrix(m,n);
     cout << "-------------Displaying Entered 2-D Matrix-------------"<< endl;
     display_matrix(m,n);
-    
+    return 0;
 }
