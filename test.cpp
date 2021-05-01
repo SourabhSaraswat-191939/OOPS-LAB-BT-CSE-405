@@ -49,5 +49,5 @@ int main()
     {
         cout<<"\n strings are not equal";
     }
-    
+    return 0;
 }
