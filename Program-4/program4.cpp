@@ -36,5 +36,5 @@ int main()
         ans=power(m,n);  
     }
     display(ans);  
-    return 0;
+    
 }
