@@ -23,7 +23,8 @@ class Engineer{
 
 class Sourabh : public Programmer, public Engineer{
     public:
-        Sourabh(string name): Programmer(name), Engineer(name){  // using Initializer List Syntax (":") to pass values to inherited constructor.
+    // using Initializer List Syntax (":") to pass values to inherited constructor.
+        Sourabh(string name): Programmer(name), Engineer(name){  
             cout<<"\n################ Some More Details about "<<name<<" ################\n"<<endl;
         }
 };
