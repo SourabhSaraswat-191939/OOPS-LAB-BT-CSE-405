@@ -29,7 +29,6 @@ class Sourabh : public Programmer, public Engineer{
         }
 };
 
-
 int main(){
     Sourabh s("Sourabh"); 
     s.Tech_knowledge();
